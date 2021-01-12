@@ -1,12 +1,80 @@
+
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Static Template</title>
-  </head>
-  <body>
-    <h1></h1>
-  </body>
+<html lang="id-ID">
+<head>
+<meta name="viewport" content="initial-scale=1, width=device-width">
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" type="text/css" href="../style/dist/main.css">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<link rel="icon" type="image/png" href="../img/logo.png">
+<title>Daftar UMKM Kelurahan Semaki</title>
+</head>
+<body>
+<div class="kembali">
+    <i class="fas fa-arrow-left"></i>
+    <h3>Kembali</h3>
+</div>
+<div class="header"><marquee behavior="alternative" direction="">Jangan lupa daftarkan usaha anda di website kami</marquee></div>
+<form action="" method="post" id="inputCari">          
+    <input type="search" name="search" autocomplete="off">
+    <button type="submit" name="cari">CARI</button>
+</form>
+<div class="wrap2">
+
+    <div class="box">
+        <img src="../foto/5fa23185729f0.png" alt="">
+        <p>HASAN ALPHABET</p>
+        <div class="info">
+            <div class="bio">
+                <img src="../foto/5fa23185729f0.png" alt="">
+                <h1>HASAN ALPHABET</h1>
+                <table cellspacing="0">
+                    <tr class="tr">
+                        <td><b>ALAMAT</b></td>  
+                        <td>KALIURANG</td>  
+                    </tr>
+                    <tr class="tr">
+                        <td><b>DESKRIPSI</b></td>  
+                        <td><p>MENJUAL GANJA & SABU</p></td>  
+                    </tr>
+                </table>
+                <button onclick="pesan("+6281215622408");">HUBUNGI</button>  
+            </div>
+            <div class="carousel">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        
+                            <img class="swiper-slide" src="../foto_produk/5f9f6e5b52835.jpg" alt="">
+                            <img class="swiper-slide" src="../foto_produk/5f9f6e5b52835.jpg" alt="">
+                            <img class="swiper-slide" src="../foto_produk/5f9f6e5b52835.jpg" alt="">
+                        
+                    </div>
+                    <div class="swiper-button-next" style="color: white; filter: drop-shadow(0 1px #000);"></div>
+                    <div class="swiper-button-prev" style="color: white; filter: drop-shadow(0 1px #000);"></div>
+                </div>
+            </div>
+            <div class="close-btn">
+                <span class="span-hbg"></span>
+                <span class="span-hbg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="../script/umkm.js"></script>
+<script>
+let swiper = new Swiper('.swiper-container', {
+    direction: 'horizontal',
+    observer: true,
+    observeParents: true,
+    autoplay: {delay: 6000},
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+});
+</script>
+</body>
 </html>
