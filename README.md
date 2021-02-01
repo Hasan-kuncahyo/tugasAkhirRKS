@@ -10,6 +10,6 @@ https://drive.google.com/drive/folders/1wWZIBuu7kNhrB1HpWQVGCoLZ5MJNMvTd?usp=sha
 
 Berikut hasil screenshot aplikasi yang dijalankan :
 Tampilan Utama : 
-https://github.com/Hasan-kuncahyo/tugasAkhirRKS/blob/main/HASIL%20WIRE%20FRAME/TAMPILAN%20UTAMA.JPG
-Tampilan Pendaftaran : 
-https://github.com/Hasan-kuncahyo/tugasAkhirRKS/blob/main/HASIL%20WIRE%20FRAME/TAMPILAN%20PENDAFTARAN.JPG
+![TAMPILAN UTAMA](https://user-images.githubusercontent.com/60814167/106421406-3ce9fa80-648f-11eb-84f8-f168e626dad0.jpg)
+Tampilan Pendaftaran :
+![TAMPILAN PENDAFTARAN](https://user-images.githubusercontent.com/60814167/106421400-38bddd00-648f-11eb-8586-29094646ffab.jpg)
