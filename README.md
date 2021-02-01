@@ -1,7 +1,7 @@
 # tugasAkhirRKS
 
-Aplikasi ini dibuat menggunakan aplikasi codesandbox 
-Codesandbox adalah text editor yang tersedia dibrowser
+Aplikasi ini dibuat menggunakan aplikasi codesandbox. 
+Codesandbox adalah text editor yang tersedia dibrowser.
 Aplikasi ini bernama "UMKM kelurahan Semaki", aplikasi
 dibangun dengan mengikuti aesuai rancangan wireframe dan
 workflow,dan dokumentasi kebutuhan, berikut link tersebut :
